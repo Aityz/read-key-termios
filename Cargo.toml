@@ -1,0 +1,18 @@
+[package]
+name = "read-key-termios"
+version = "0.1.0"
+edition = "2021"
+authors = ["Aityz (aitomurai@gmail.com)"]
+license = "MIT"
+description = "Simple key-reading using Termios from Libc. Unsafe for obvious reasons. Also doesn't work on Windows for obvious reasons."
+homepage = "https://github.com/Aityz"
+repository = "https://github.com/Aityz/read-key-termios"
+readme = "README.md"
+keywords = ["termios", "terminal", "cli", "read_key", "tiny", "term"]
+categories = ["command-line-utilities", "api-bindings"]
+
+[lib]
+name = "read_key_termios"
+path = "src/lib.rs"
+
+[dependencies]
