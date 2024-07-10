@@ -8,7 +8,7 @@ description = "Simple key-reading using Termios from Libc. Unsafe for obvious re
 homepage = "https://github.com/Aityz"
 repository = "https://github.com/Aityz/read-key-termios"
 readme = "README.md"
-keywords = ["termios", "terminal", "cli", "read_key", "tiny", "term"]
+keywords = ["termios", "terminal", "cli", "read_key", "tiny"]
 categories = ["command-line-utilities", "api-bindings"]
 
 [lib]
